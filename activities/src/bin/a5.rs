@@ -9,4 +9,13 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+    let mut interger = 2;
+    loop {
+        println!("{}", interger);
+        interger += 1;
+        if interger > 4 {
+            break;
+        }
+    }
+}
